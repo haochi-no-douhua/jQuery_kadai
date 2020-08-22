@@ -112,11 +112,9 @@ body {
 .what_text h2{
   background: lightblue;
 }
-
-
-
-
-
+.hide{
+  display: none;
+}
 
 .footer{height: 50px;
         width: 100%;
