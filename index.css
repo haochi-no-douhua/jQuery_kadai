@@ -136,6 +136,13 @@ body {
   top: 450px;
   left: 0;
 }
+#good img{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 550px;
+  left: 0;
+}
 #accordion{
   height: auto;
   width: auto;
