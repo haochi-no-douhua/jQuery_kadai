@@ -11,3 +11,10 @@ $(function(){
     $('.content').eq(index).removeClass('hide');
   });
 });
+
+$(function () {
+  $('#accordion dd').hide();
+  $('#accordion dt').on('click',function(){
+    $(this).next('dd').slideToggle('');
+  });
+});

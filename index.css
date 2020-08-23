@@ -115,7 +115,31 @@ body {
 .hide{
   display: none;
 }
-
+#accordion dt img{
+  position: fixed;
+  top: 250px;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+#twitter img{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 350px;
+  left: 0;
+}
+#insta img{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 450px;
+  left: 0;
+}
+#accordion{
+  height: auto;
+  width: auto;
+}
 .footer{height: 50px;
         width: 100%;
         background-color: skyblue;
