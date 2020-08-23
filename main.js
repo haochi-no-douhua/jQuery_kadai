@@ -15,9 +15,6 @@ $(function(){
 $(function () {
   $('#accordion dd').hide();
   $('#accordion dt').on('click',function(){
-    $('dd').each(function(){
-      $(this).next('dd').slideToggle('');
-    })
-    //nextにしかなってないから、次の要素のtwitterしか表示されない,のでeachを使ってみた
+    $(this).nextUntil('dt','dd').slideToggle('');
   });
 });
